@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+            rel="stylesheet">
+        <title>BeaBee</title>
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="title">Our Book List</div>
+            <div class="listProduct"></div>
+        </div>
+
+        <script>
+        let products = null;
+        fetch ('products.json')
+        .then(response => response.json())
+        .then(data => {
+            products = data;
+            addDataToHTML ();             
+        })
+        let listProduct= document.querySelector('.listProduct');
+        function addDataToHTML() {
+            products.forEach(product => {
+                let newProduct = document.createElement('a');
+                listProduct.appendChild(newProduct);
+                newProduct.href='detail.html?id=' + product.id;
+                newProduct.classList.add('item');
+                newProduct.innerHTML=`
+                <img src="${product.image}" alt="">
+                <h2>${product.name}</h2>
+                <div class="price">${product.price}</div>`
+            });
+        }
+
+    </script>
+
+    </body>
+</html>

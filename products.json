@@ -1,0 +1,72 @@
+[
+    {
+        "id":1,
+        "name": "how to read a person like a book",
+        "price":1300,
+        "image": "./img/1.webp",
+        "description": "How to Read a Person Like a Book* by Gerard I. Nierenberg and Henry H. Calero is a guide to understanding and interpreting nonverbal communication. It focuses on body language, gestures, facial expressions, and other physical cues to help readers better understand people's thoughts, feelings, and intentions. The book provides practical insights and techniques for improving interpersonal communication, building rapport, and interpreting the unspoken messages people convey in various situations. It’s useful for anyone looking to enhance their observational and communication skills"
+    },
+    {
+        "id":2,
+        "name": "The art of liziness",
+        "price":1400,
+        "image": "./img/2.webp",
+        "description": "The Art of Laziness* is a playful and insightful exploration of how embracing rest, relaxation, and intentional idleness can lead to greater creativity, productivity, and happiness. It challenges the modern obsession with hustle culture, offering strategies to slow down, prioritize self-care, and find balance in life. The book encourages readers to value leisure as an essential part of well-being and personal growth"
+    },
+    {
+        "id":3,
+        "name": "The Organized Mind",
+        "price":1100,
+        "image": "./img/3.webp",
+        "description": "*The Organized Mind: Thinking Straight in the Age of Information Overload* by Daniel J. Levitin is a book that explores how we can manage the overwhelming amount of information we encounter daily. Levitin, a neuroscientist, explains how our brains are wired to process information and offers practical strategies to stay organized and focused. By combining insights from neuroscience, psychology, and productivity, the book provides tools to improve decision-making, prioritize tasks, and reduce stress in our modern, information-heavy lives. It emphasizes the importance of habits, external systems, and structured thinking to help navigate complexity."
+    },
+    {
+        "id":4,
+        "name": "Get Out Of My Head",
+        "price":1300,
+        "image": "./img/4.webp",
+        "description": "Get Out of My Head: by Andrew McCulloch is a book that explores the overwhelming nature of overthinking and intrusive thoughts. It offers practical advice, insights, and exercises to help readers manage their minds, break free from cycles of negative thinking, and reclaim mental clarity and peace. Written in an accessible and relatable style, the book focuses on improving emotional well-being and fostering a healthier relationship with your thoughts"
+    },
+    {
+        "id":5,
+        "name": "Build don't Talk",
+        "price":1600,
+        "image": "./img/5.webp",
+        "description": "*Build Don’t Talk: Things You Wish You Were Taught in School* by Raj Shamani is a practical and straightforward guide for young professionals and entrepreneurs. It focuses on actionable advice for building skills, navigating career challenges, and achieving success. Through personal stories and real-life examples, Shamani emphasizes the importance of execution over empty talk, self-awareness, financial independence, and leveraging failures as opportunities for growth. The book is a motivational tool for anyone looking to take charge of their career and life with a focus on action and results."
+    },
+    {
+        "id":6,
+        "name": "how to grow your small business",
+        "price":1700,
+        "image": "./img/6.webp",
+        "description": "How to Grow Your Small Business: by *Donald Miller* is a practical guide designed to help small business owners scale and succeed by focusing on six core areas: leadership, marketing, sales, product optimization, management, and cash flow. The book provides actionable strategies and frameworks that are easy to understand and implement, making it a step-by-step plan for building a business that thrives without overwhelming the owner. Its emphasis is on clarity, focus, and creating sustainable growth."
+    },
+    {
+        "id":7,
+        "name": "365 days with Self-discipline",
+        "price":1250,
+        "image": "./img/7.webp",
+        "description": "365 Days with Self-Discipline: by Martin Meadows is a motivational and practical book designed to help readers build self-discipline and achieve their goals. It offers 365 short, daily entries filled with tips, quotes, and actionable advice. The book focuses on topics such as time management, overcoming procrastination, developing good habits, and staying consistent. Each day's entry provides a quick dose of inspiration and a practical strategy to help readers stay focused and motivated throughout the year. It's a guide for anyone seeking to cultivate discipline and personal growth."
+    },
+    {
+        "id":8,
+        "name": "How To Finish Everything You Start",
+        "price":1200,
+        "image": "./img/8.webp",
+        "description": "How to Finish Everything You Start: The Art of Following Through, Taking Action, Executing, & Self-Discipline* by Peter Hollins is a practical self-help book focused on overcoming procrastination, building self-discipline, and completing tasks. It provides actionable strategies to help readers start and finish projects effectively, manage distractions, and sustain motivation. The book emphasizes mindset shifts, prioritization, and creating habits that support productivity, making it a straightforward guide for anyone seeking to improve their ability to follow through on goals."
+    },
+    {
+        "id":9,
+        "name": "The Art Of Thinking Clearly",
+        "price":1300,
+        "image": "./img/9.webp",
+        "description": "The Art of Thinking Clearly: by Rolf Dobelli is a practical guide to improving decision-making by avoiding common cognitive biases and logical fallacies. The book is divided into 99 short chapters, each addressing a specific mental error or bias—such as confirmation bias, overconfidence, or the sunk cost fallacy. Dobelli uses relatable examples and real-life scenarios to illustrate these concepts, helping readers recognize and counter these pitfalls in their everyday thinking. It's an easy-to-read book that combines psychology, behavioral economics, and philosophy to promote clearer and more rational thinking."
+    },
+    {
+        "id":10,
+        "name": "Dont Believe Everything You Think",
+        "price":1500,
+        "image": "./img/10.webp",
+        "description": "Don't Believe Everything You Think by Joseph Nguyen is a self-help book that focuses on understanding and transforming negative thought patterns. It explores the idea that much of our mental suffering comes not from external circumstances but from the way we think and perceive situations. The book emphasizes mindfulness and challenges readers to question their beliefs, detach from limiting thoughts, and embrace inner peace by living in the present moment. Written in a straightforward and approachable style, it offers practical insights for overcoming overthinking and finding clarity."
+    }
+]

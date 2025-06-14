@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    font-family: "Nunito", serif;
+}
+
+a{
+    text-decoration: none;
+    color: unset;
+}
+
+.container{ 
+    max-width: 90vw;
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.title{
+    font-size: xx-large;
+    padding: 20px 0;
+}
+
+.listProduct .item img{
+    width: 90%;
+    border-radius: 20px;
+}
+
+.listProduct{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.listProduct .item{
+    padding: 20px;
+    filter: drop-shadow(0px 10px 20px rgb(147, 147, 147));
+}
+
+.listProduct .item h2{
+    font-size: 20px;
+}
+
+.listProduct .item .price{
+    font-weight: 300;
+    font-size: small;
+    letter-spacing: 7px;
+}
+
+/* details Part */
+
+.detail{
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ text-align: left;
+}
+.detail .image{
+    display: flex;
+    justify-content: center;
+}
+
+.detail .image img{
+    width: 60%;
+    border-radius: 20px;
+    filter: drop-shadow(0px 10px 20px rgb(147, 147, 147));
+}
+
+.detail .price{
+    font-size: 20px;
+    color: red;
+}
+.detail .buttons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+}
+
+.detail .buttons button{
+    height: 50px;
+    width: 100%;
+    margin: 50px 0;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+}
+
+.detail .buttons button:hover{
+    background-color: rgba(255, 0, 0, 0.51);
+    color: aliceblue;
+}
+
+.detail .buttons svg{
+    width: 20px;
+}
+
+.detail .buttons span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    background-color: rgb(115, 111, 111);
+    color: aliceblue;
+    margin-left: 20px;
+}
+.detail .buttons button:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2F2F2F;
+    color: aliceblue;
+    filter: drop-shadow(0px 10px 20px rgb(147, 147, 147));
+}
+
+.detail .description{
+    font-weight: 300;
+}
+
+@media screen and (max-width: 992px) {
+    .listProduct{
+        grid-template-columns: repeat(3, 1fr);
+    }   
+    .detail{
+        grid-template-columns: 40% 1fr;
+    }
+}
+@media screen and (max-width: 768px) {
+    .listProduct{
+        grid-template-columns: repeat(2, 1fr);
+    }  
+    .detail{
+        grid-template-columns: 1fr;
+        text-align: center;
+    } 
+    .detail .name{
+        font-size: x-large;
+    }
+}
+
+
